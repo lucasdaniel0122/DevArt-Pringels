@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Pringles</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li>Início</li>
+            <li>Promoções</li>
+            <li>Nossos Produtos</li>
+            <li>Contato</li>
+        </ul>
+        </nav>
+        <img src="assets/logoPringles.webp" alt="Logo da marca Pringles">
+        <div class="icones">
+            <img src="assets/lupa.svg" alt="ícone de Pesquisa do site">
+            <img src="assets/user.svg" alt="ícone para identificação da conta do usuário">
+        </div>
+    </header>
+
+    <main>
+        <section class="slider">
+            <div class="slide ativo">
+                <img class="fundoLogo" src="assets/logoFundo.svg" alt="Logo Pringles de Fundo">
+                <img class="imgCirculo" src="assets/circulo1.webp" alt="Pote de batata com o primeiro sabor de Sal e Vinagre">
+                <div class="conteudo">
+                    <h2>Salt e Vinegar</h2>
+                    <p>Com um pouco de vinagre e uma pitada de sal, prepare-se
+                    para uma explosão de sabor. E quando se der conta, vai querer
+                    muito mais!</p>
+                    <button>VER NA LOJA</button>
+                </div>
+                <div class="latas">
+                    <img src="assets/saltVinegar.webp" alt="Imagem da lata da batata de sabor Sal e Vinagre">
+                    <img src="assets/hamCheese.webp" alt="Imagem da lata da batata de sabor Presunto e Queijo">
+                </div>
+            </div>
+
+            <div class="slide">
+                <img class="fundoLogo" src="assets/logoFundo.svg" alt="Logo Pringles de Fundo">
+                <img class="imgCirculo" src="assets/circulo3.webp" alt="Imagem de presunto e queijo de demosntração do sabor da batata">
+                <div class="conteudo">
+                    <h2>Ham & Cheese</h2>
+                    <p>O simples que todo mundo ama. Explosão defumada combinada 
+                    em cada mordida. O sabor é intenso e equilibrado, oferecendo 
+                    crocância que você só encontra na Pringles.</p>
+                    <button>VER NA LOJA</button>
+                </div>
+                <div class="latas">
+                    <img src="assets/hamCheese.webp" alt="Imagem da lata da batata de sabor presunto e queijo">
+                    <img src="assets/pringlesPaprika.webp" alt="Imagem da lata da batata de sabor páprica">
+                </div>
+            </div>
+
+             <div class="slide">
+                <img class="fundoLogo" src="assets/logoFundo.svg" alt="Logo Pringles de Fundo">
+                <img class="imgCirculo" src="assets/circulo2.webp" alt="Imagem do tempero páprica de demosntração do sabor da batata">
+                <div class="conteudo">
+                    <h2>Paprika</h2>
+                    <p>Uma experiência vibrante que combina a crocância clássica e o toque 
+                    defumado e adocicado da páprica. É o equilíbrio perfeito entre um tempero 
+                    rico e uma picância suave que desperta o paladar.</p>
+                    <button>VER NA LOJA</button>
+                </div>
+                <div class="latas">
+                    <img src="assets/pringlesPaprika.webp" alt="Imagem da lata da batata de sabor páprica">
+                    <img src="assets/cheeseOnion.webp" alt="Imagem da lata da batata de sabor cebola e queijo">
+                </div>
+            </div>
+
+            <div class="slide">
+                <img class="fundoLogo" src="assets/logoFundo.svg" alt="Logo Pringles de Fundo">
+                <img class="imgCirculo" src="assets/circulo4.webp" alt="Imagem de cebola na tigela de demosntração do sabor da batata">
+                <div class="conteudo">
+                    <h2>Cheese & Onion</h2>
+                    <p>Harmonia irresistível entre a cremosidade e o toque levemente 
+                    aromático da cebola. O clássico sabor elevado à crocância perfeita, 
+                    garantindo uma experiência equilibrada em cada batata.</p>
+                    <button>VER NA LOJA</button>
+                </div>
+                <div class="latas">
+                    <img src="assets/cheeseOnion.webp" alt="Imagem da lata da batata de sabor cebola e queijo">
+                    <img src="assets/saltVinegar.webp" alt="Imagem da lata da batata de sabor sal e vinagre">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/SplitText.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
